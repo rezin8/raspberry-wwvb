@@ -4,9 +4,8 @@
 #include <stdint.h>
 #include <time.h>
 
-// Time difference with New York time zone
-// 6 hours for Central European Time
-#define HOUR_DIFF 6
+// Actually use UTC and not a 6 hour differential.
+#define HOUR_DIFF 0
 
 int last = 0;
 int i;
